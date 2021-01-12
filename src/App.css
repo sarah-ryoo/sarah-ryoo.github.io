@@ -1,21 +1,15 @@
+
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +18,78 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Section-header {
+  text-align: center;
+  color: #282c34;
+  text-transform: uppercase;
+  margin: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border-radius: 50%;
+  max-width: 20em;
+  max-height: 25em;
+  float: inline-start;
 }
+
+p {
+  float: inline-start;
+  text-align: center;
+}
+
+/* Education */
+.Test{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.Test .School .Degree {
+  text-transform: uppercase;
+}
+.Education-container {
+  box-sizing: border-box;
+  margin-inline: 15rem;
+}
+
+/* Contact */
+.Contact-container {
+  text-align: center;
+}
+.CV-download .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.CV-download .btn:hover {
+  background-color: RoyalBlue;
+}
+.Social-icons .btn-social-icon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.Social-icons .btn-social-icon:last-child {
+  margin-right: 0;
+}
+.Social-icons .btn-social-icon:hover {
+  background-color: #bd5d38;
+}
+
+
+
+
+
+
+
+
