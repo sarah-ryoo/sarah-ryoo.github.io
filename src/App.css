@@ -1,6 +1,4 @@
-
 .App {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,51 +6,120 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 50vh;
+  /* background-color: #282c34; */
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.Section-header {
-  text-align: center;
-  color: #282c34;
+.App-header h1 {
+  font: 400 100px/1.2 'Yeseva One', Helvetica, sans-serif;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+}
+
+.App-header p {
+  font: 400 20px/2.5 'Roboto', sans-serif;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
-  margin: 1.5rem;
 }
 
-img {
-  border-radius: 50%;
-  max-width: 20em;
-  max-height: 25em;
-  float: inline-start;
-}
-
-p {
-  float: inline-start;
+.Subheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #282c34;
+  font: 900 35px/2.5 'Roboto', sans-serif;
+  border-bottom: 5px solid black;
+  padding-bottom: 20px;
+  width: 18vw;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+
+/* About Me */
+.Aboutme {
+  max-width: 800px;
+  min-height: 30vh;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  padding: 0rem 4rem;
+  /* border: 2px solid pink; */
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.Aboutme img {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  vertical-align: center;
+  margin-right: 6%;
+  float: left;
+  border: 2px solid black; 
+}
+.Aboutme p {
+  font: 400 15px/1.5 'Roboto', sans-serif;
+  display: block;
+}
+/* Experience */
+.Experience {
+  max-width: 800px;
+  min-height: 60vh;
+  margin: auto;
+  margin-top: 10vh;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  /* border: 3px solid green; */
 }
 
 /* Education */
-.Test{
+.Education{
+  max-width: 800px;
+  min-height: 60vh;
+  margin: auto;
+  margin-top: 10vh;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  /* border: 3px solid green; */
+}
+.Entry{
   text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
 }
-.Test .School .Degree {
-  text-transform: uppercase;
+.School {
+  font: 700 25px 'Roboto', sans-serif;
 }
-.Education-container {
-  box-sizing: border-box;
-  margin-inline: 15rem;
+.Degree {
+  font: 500 20px 'Roboto', sans-serif;
+}
+.Degree-content {
+  font: 400 15px/2.5 'Roboto', sans-serif;
+  text-transform: none;
+  margin-top: 1.5vh; 
 }
 
 /* Contact */
-.Contact-container {
+.Contact {
+  max-width: 800px;
+  min-height: 60vh;
+  margin: auto;
+  margin-top: 10vh;
+  text-overflow: ellipsis;
+  /* border: 3px solid green; */
   text-align: center;
 }
 .CV-download .btn {

@@ -1,15 +1,16 @@
 import React from 'react';
 import '../App.css';
-import profile from '../tina.png';
+import profile from '../profile.jpg';
 
 const AboutMe = () => {
     return (
-        <div className="Aboutme-container">
-            <h2 className="Section-header">About Me</h2>
-            
-            <p><img src={profile} alt="Profile" />Welcome to my portfolio.<br/>I'm a chemist turned web developer with a passion for ... <br/>
-            I have a particular interest for data science.<br/>
-            I'm always curious and always learning.</p>
+        <div className="Aboutme">
+            <img src={ profile } alt="Profile"/>
+            <p>I'm a chemist turned programmer with a particular interest for data science. 
+            Coding was a steep learning curve for me and everday is a new challenge,
+            but I believe those challenges have made me a better programmer today than I was yesterday.<br/>
+            <br/>I'm working towards my goal of using my passion and backgrounds to tackle environmental and 
+            social issues.</p>
         </div>
     );
 };

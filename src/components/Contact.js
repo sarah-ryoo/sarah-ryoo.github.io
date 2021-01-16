@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import cv from '../SarahRyooResume.pdf';
 
 const Contact = () => {
     return(
-        <div className="Contact-container">
-            <h2 className="Section-header">Contact</h2>
+        <div className="Contact">
+            <h2 className="Subheading">Contact</h2>
             <div className="CV-download">
-                <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+                <a href={ cv }><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
             </div>
             <div className="Social-icons">
                 <a className="btn btn-social-icon" href="mailto:sarah.h.ryoo@gmail.com"><i class="fa fa-google"></i></a>
