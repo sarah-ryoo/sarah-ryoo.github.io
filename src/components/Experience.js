@@ -8,24 +8,28 @@ const Experience = () => {
             <div className="Entry">
                     <h2 className="School">TRIUMF</h2>
                     <div className="Degree">Frontend Developer</div>
-                    <div className="Degree-content">WordPress | UI Design | Docker<br/>Pioneered a Public Outreach Portal by creating 
+                    <div className="Degree-content">WordPress | UI Design | Docker</div>
+                    <div className="Experience-description">Pioneered a Public Outreach Portal by creating 
                     an interactive and engaging website to showcase the client's work and increase their
-                    brand name recognition.</div>
+                    brand name recognition.<br/></div>
+                    <div className="Degree-content">2020</div>
             </div>
 
             <div className="Entry">
                     <h2 className="School">The ReFrame Group</h2>
                     <div className="Degree">Backend Developer</div>
-                    <div className="Degree-content">Amazon RDS | JSON | MySQL <br/>Implemented a responsive form GUI on the client's existing 
-                    website to automate the process of generating a life insurance quote.<br/></div>
+                    <div className="Degree-content">Amazon RDS | JSON | MySQL</div> 
+                    <div className="Experience-description">Implemented a responsive form GUI on the client's existing 
+                    website to automate the process of generating a life insurance quote.</div>
+                    <div className="Degree-content">2020</div> 
             </div>
 
             <div className="Entry">
                     <h2 className="School">We Occupy Earth</h2>
                     <div className="Degree">Backend Developer</div>
-                    <div className="Degree-content">App Development | ReactJS | Google API <br/>Developed a real
-                    time mobile app for natural disaster preparation and awareness with a safety guidance feature.
-                    </div>
+                    <div className="Degree-content">App Development | ReactJS | Google API</div> 
+                    <div className="Experience-description">Developed a real time mobile app for natural disaster preparation and awareness with a safety guidance feature.</div>
+                    <div className="Degree-content">2019</div>
             </div>
             
         </div>
