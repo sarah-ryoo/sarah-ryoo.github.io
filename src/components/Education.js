@@ -7,9 +7,9 @@ const Education = () => {
             <div className="Entry">
                     <h2 className="School">British Columbia Institute of Technology</h2>
                     <div className="Degree">Computer Systems Technology Diploma</div>
-                    <div className="Degree-content">Graduated with Distinction<br/>
-                    Predictive Analytics Option:<br/>Predictive Modelling, Machine Learning, Big Data<br/>
-                    2019 - 2020</div>
+                    <div className="Experience-description">Graduated with Distinction<br/>
+                    Predictive Analytics Option:<br/>Predictive Modelling, Machine Learning, Big Data</div>
+                    <div className="Degree-content">2019 - 2020</div>
             </div>
 
             <div class="Entry">
