@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import projectposter from '../projectposter.jpg';
 
 const Experience = () => {
     return(
@@ -29,6 +30,9 @@ const Experience = () => {
                     <div className="Degree">Backend Developer</div>
                     <div className="Degree-content">App Development | ReactJS | Google API</div> 
                     <div className="Experience-description">Developed a real time mobile app for natural disaster preparation and awareness with a safety guidance feature.</div>
+                    <div className="Degree-content"><a href="https://we-occupy-earth.firebaseapp.com/">The App</a>  |  
+                    <a href="https://www.youtube.com/watch?v=b3ogAyVLEXQ&ab_channel=KTruong"> Video Walkthrough</a>  |  
+                    <a href= { projectposter }> Project Poster</a></div>
                     <div className="Degree-content">2019</div>
             </div>
             
