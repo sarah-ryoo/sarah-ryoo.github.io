@@ -16,7 +16,7 @@ const Experience = () => {
             </div>
 
             <div className="Entry">
-                    <h2 className="School">The ReFrame Group</h2>
+                    <h2 className="School">The Re/Frame Group</h2>
                     <div className="Degree">Backend Developer</div>
                     <div className="Degree-content">Amazon RDS | JSON | MySQL</div> 
                     <div className="Experience-description">Developed and implemented a responsive form GUI on the client’s existing 
